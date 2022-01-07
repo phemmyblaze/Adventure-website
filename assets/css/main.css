@@ -37,6 +37,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -242,10 +243,6 @@ img {
 
 .parallax-top-img {
   top: 0;
-}
-
-.test {
-  height: 1000rem;
 }
 
 /* Hiking information */
