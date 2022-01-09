@@ -26,7 +26,7 @@
           <img src="./assets/images/logo.png" alt="logo" class="logo-image" />
         </a>
         <div class="menu" id="mobile-menu">
-          <ul class="nav-list">
+          <ul class="nav-link">
             <li class="nav-item">
               <a href="#" class="nav-link">Equipment</a>
             </li>
@@ -64,13 +64,12 @@
 
     <!-- Main -->
     <main class="main">
+      <!-- Hero -->
       <section class="hero">
         <div class="hero-container container">
           <div class="hero-data" id="hero-data">
             <span class="tagline">A hiking guide</span>
-            <h1 class="title main-title">
-              Be prepared for the mountains and beyond
-            </h1>
+            <h1 class="title">Be prepared for the mountains and beyond</h1>
             <a href="#hiking-information" class="btn btn-scroll-down">
               scroll down <i class="ri-arrow-down-line"></i>
             </a>
@@ -95,16 +94,16 @@
           id="grassland"
         />
       </section>
-
+      <!-- Hiking-information -->
       <section class="hiking-information section" id="hiking-information">
         <div class="card-container container">
           <div class="card d-grid">
             <img
               src="./assets/images/01.png"
               alt="hiking path"
-              class="card-image place-items-center"
+              class="card-image frame-position-center"
             />
-            <div class="class-info">
+            <div class="card-info">
               <span class="count">01</span>
               <span class="tagline">Get started</span>
               <h2 class="title card-title">What level of hiker are you?</h2>
@@ -125,12 +124,12 @@
             <img
               src="./assets/images/02.png"
               alt="hiking path"
-              class="card-image place-items-center"
+              class="card-image frame-position-center order-first"
             />
-            <div class="class-info">
+            <div class="card-info">
               <span class="count">02</span>
-              <span class="tagline">Get started</span>
-              <h2 class="title card-title">What level of hiker are you?</h2>
+              <span class="tagline">Hiking essential</span>
+              <h2 class="title card-title">Pick the right hiking gear</h2>
               <p class="card-description">
                 Determining what level of hiker you are can be an important tool
                 when planning future hikes. This hiking level guide will help
@@ -148,12 +147,12 @@
             <img
               src="./assets/images/03.png"
               alt="hiking path"
-              class="card-image place-items-center"
+              class="card-image frame-position-center"
             />
-            <div class="class-info">
+            <div class="card-info">
               <span class="count">03</span>
-              <span class="tagline">Get started</span>
-              <h2 class="title card-title">What level of hiker are you?</h2>
+              <span class="tagline">Where you go is the key</span>
+              <h2 class="title card-title">Understanding your map & timing</h2>
               <p class="card-description">
                 Determining what level of hiker you are can be an important tool
                 when planning future hikes. This hiking level guide will help
@@ -170,12 +169,42 @@
       </section>
     </main>
 
-    <!-- Hero -->
-
-    <!-- Hiking-information -->
-
     <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-container container d-grid">
+        <div class="brand-information">
+          <a href="./index.html" class="logo-box">
+            <img src="./assets/images/logo.png" alt="logo" class="logo-image" />
+          </a>
+          <p class="footer-blurb">
+            Get out there and discover your next slope, mountain & destination!
+          </p>
+          <span class="copyright">
+            &copy 2022 MNTN, Inc. All right reserved
+          </span>
+          <span class="copyright"> Terms & Privacy Policy </span>
+        </div>
+        <div class="footer-nav d-grid">
+          <div class="footer-nav-group">
+            <h6 class="footer-nav-title">More on the blog</h6>
+            <a href="#" class="footer-nav-link nav-link">About MNTN</a>
+            <a href="#" class="footer-nav-link nav-link"
+              >Contributors & Writters</a
+            >
+            <a href="#" class="footer-nav-link nav-link">Write for us</a>
+            <a href="#" class="footer-nav-link nav-link">Contact us</a>
+            <a href="#" class="footer-nav-link nav-link">Privacy Policy</a>
+          </div>
 
+          <div class="footer-nav-group">
+            <h6 class="footer-nav-title">More on the MNTN</h6>
+            <a href="#" class="footer-nav-link nav-link">The team</a>
+            <a href="#" class="footer-nav-link nav-link">Jobs</a>
+            <a href="#" class="footer-nav-link nav-link">Press</a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- Import JS file   -->
     <script src="./assets/js/main.js"></script>
   </body>
